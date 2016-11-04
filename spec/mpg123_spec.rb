@@ -4,8 +4,10 @@ describe Mpg123 do
   it 'has a version number' do
     expect(Mpg123::VERSION).not_to be nil
   end
+end
 
-  it 'compiles the c extension' do
-    expect(Mpg123.mike_check).to eq('moon river')
+describe Mpg123::MpegFile do
+  it "doesn't throw an error on object creation" do
+    expect { Mpg123::MpegFile.new }.not_to raise_error
   end
 end

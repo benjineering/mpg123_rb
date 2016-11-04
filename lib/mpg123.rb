@@ -1,5 +1,6 @@
+# c files
 require 'mpg123/mpg123'
-require 'mpg123/version'
+#require 'mpg123/mpeg_file'
 
-module Mpg123  
-end
+# ruby files
+require 'mpg123/version'
