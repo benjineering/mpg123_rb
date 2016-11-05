@@ -3,8 +3,8 @@
 
 #include <ruby.h>
 #include <mpg123.h>
-#include "mpeg_file.h"
+#include "mpg123_handle.h"
 
-extern VALUE module;
+extern VALUE Module;
 
 #endif
